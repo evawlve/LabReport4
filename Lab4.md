@@ -42,4 +42,8 @@ Similar to step 5, we run the test.sh file once again using the command `bash te
 
 ## Step 9:
 
-We can now commit and push the file we just changed using Vim! From the command line, we use the command `git add 'ListExamples.java' this
+We can now commit and push the file we just changed using Vim! From the command line, we use the command `git add 'ListExamples.java` 
+to add the file, we then use the command `git commmit -m "Fixed the bug!"` to commit the change. The -m command line option puts 
+a message on the commit. Finally we can use the command `git push origin` to push the commit to the origin!
+
+![Image](commit.PNG)
