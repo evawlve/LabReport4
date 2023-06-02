@@ -6,6 +6,8 @@ Logging into ieng6: We log into our ieng6 as usual using ssh cs15lsp23__@ieng6.u
 Where the underscores are to be replaced with your student specific account. 
 *Note If you have not previously set up an ssh key to login, your password will be required to log in.
 
+![Image](ssh.PNG)
+
 ## Step 5 & 6:
 
 We can clone the fork of the repository using the command `git clone https://github.com/ucsd-cse15l-s23/lab7`
@@ -47,3 +49,13 @@ to add the file, we then use the command `git commmit -m "Fixed the bug!"` to co
 a message on the commit. Finally we can use the command `git push origin` to push the commit to the origin!
 
 ![Image](commit.PNG)
+
+Using the SSH code from the repository, you can enter the command as `git push __ main` where the ssh code from the repository is to be pasted into the command
+
+SSH code:
+
+![Image](sshcode.PNG)
+
+Git Push:
+
+![Image](gitpush.PNG)
